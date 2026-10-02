@@ -1,0 +1,19 @@
+{
+ "name": "utilo-client",
+ "private": true,
+ "type": "module",
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build && node gen-index.mjs"
+ },
+ "dependencies": {
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "jszip": "^3.10.1",
+  "pdfjs-dist": "4.4.168"
+ },
+ "devDependencies": {
+  "@vitejs/plugin-react": "^4.3.1",
+  "vite": "^5.4.0"
+ }
+}
